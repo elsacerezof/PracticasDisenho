@@ -27,5 +27,5 @@ namespace Practica4
             return resultado;
 
         }
-    }
+    } 
 }
