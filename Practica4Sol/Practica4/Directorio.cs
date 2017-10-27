@@ -13,10 +13,12 @@ namespace Practica4
 
         private String nombre;
         private double tamanho;
+        // Pablo: Aquí usa mejor un set, la posición de los elementos no es relevante.
         private IList<IElto_Sistema_Archivos> elementos;
 
         #endregion
 
+        // Pablo: usa precondiciones mejor que lanzar excepciones.
         public Directorio(String nom)
         {
             if (nom == null)
@@ -36,6 +38,7 @@ namespace Practica4
             get { return nombre; }
             set
             {
+              // Pablo: usa precondiciones mejor que lanzar excepciones.
                 if (value == null)
                 {
                     throw new Exception();
@@ -44,6 +47,7 @@ namespace Practica4
             }
         }
 
+        // Pablo: el tamanho de un directorio debe ser siempre calculado, no tiene sentido hacerle un setter.
         public double Tamanho
         {
             get { return tamanho; }
@@ -63,6 +67,7 @@ namespace Practica4
 
         public double calculaTamanhoTotal()
         {
+            // Pablo: Esto mejor ponlo como constante
             double tam = 1;
             foreach (IElto_Sistema_Archivos e in elementos)
             {
@@ -74,6 +79,8 @@ namespace Practica4
 
         public int numArchivosCont()
         {
+            // Pablo: Este método es erroneo. Si tienes un subdirectorio con 1000 archivos dentro de ese subdirectiorio, 
+            //        este método devuelve 1 en lugar de 1001. 
             return elementos.Count;
         }
 
