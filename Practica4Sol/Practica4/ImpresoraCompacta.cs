@@ -8,6 +8,8 @@ namespace Practica4
 {
     public class ImpresoraCompacta : Impresora
     {
+        // Pablo: Si la superclase la cambias de interfaz a clase abstracta, todo lo relacionado con las tabulaciones
+        //        lo puedes subir a las superclases.  
         private int contador;
         private TipoOrtografiaStr to;
 
@@ -31,6 +33,7 @@ namespace Practica4
         public string printArchivo(Archivo a)
         {
             this.Contador++;
+            // Esto sácalo mejor a una función auxiliar. 
             String space = null;
             for (int i = 0; i < this.Contador; i++)
             {
@@ -63,6 +66,10 @@ namespace Practica4
             }
             IList<IElto_Sistema_Archivos> eltos = d.Elementos;
             String todo = null;
+            // Pablo: Tienes un lío hecho con los incrementos de los tabularadores. De momento, tabula, pero poco.
+            //        Si en el examen te pido que las tabulaciones sean exactamente de 4 caracteres, te formo el lío.
+            //        Afortunadamente eso no va a pasar, pero mira como se puede hacer esto más fácil. Pista: 
+            //        Inicializa el contador a cero en el constructor y cambia el lugar donde se incrementa el contador.
             foreach(IElto_Sistema_Archivos e in eltos)
             {
                todo= todo + e.acceptImpresora(this);
@@ -73,6 +80,7 @@ namespace Practica4
 
         public string printEnlace(Enlace e)
         {
+            // Pablo: Este trozo de código está duplicado cuatro veces. Esto debería dolerte.
             this.Contador++;
             String space = null;
             for (int i = 0; i < this.Contador; i++)
