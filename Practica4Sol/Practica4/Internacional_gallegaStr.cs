@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Practica4
+{
+    public class Internacional_gallegaStr : TipoOrtografiaStr
+    {
+        public string muestraNombre(string nombre)
+        {
+            String resultado = nombre;
+            resultado = resultado.Replace("ñ", "nh");
+            resultado = resultado.Replace("Ñ", "Nh");
+            resultado = resultado.Replace("á", "a");
+            resultado = resultado.Replace("Á", "A");
+            resultado = resultado.Replace("é", "e");
+            resultado = resultado.Replace("É", "E");
+            resultado = resultado.Replace("í", "i");
+            resultado = resultado.Replace("Í", "I");
+            resultado = resultado.Replace("ó", "o");
+            resultado = resultado.Replace("Ó", "O");
+            resultado = resultado.Replace("ú", "u");
+            resultado = resultado.Replace("Ú", "U");
+
+            return resultado;
+
+        }
+    }
+}

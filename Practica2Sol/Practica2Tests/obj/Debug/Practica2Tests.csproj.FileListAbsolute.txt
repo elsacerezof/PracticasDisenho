@@ -1,0 +1,9 @@
+C:\Users\Usuario\Desktop\PracticasVSDiseño\Practica2Sol\Practica2Tests\bin\Debug\Practica2Tests.dll
+C:\Users\Usuario\Desktop\PracticasVSDiseño\Practica2Sol\Practica2Tests\bin\Debug\Practica2Tests.pdb
+C:\Users\Usuario\Desktop\PracticasVSDiseño\Practica2Sol\Practica2Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Usuario\Desktop\PracticasVSDiseño\Practica2Sol\Practica2Tests\bin\Debug\Practica2.exe
+C:\Users\Usuario\Desktop\PracticasVSDiseño\Practica2Sol\Practica2Tests\bin\Debug\Practica2.pdb
+C:\Users\Usuario\Desktop\PracticasVSDiseño\Practica2Sol\Practica2Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Usuario\Desktop\PracticasVSDiseño\Practica2Sol\Practica2Tests\obj\Debug\Practica2Tests.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\PracticasVSDiseño\Practica2Sol\Practica2Tests\obj\Debug\Practica2Tests.dll
+C:\Users\Usuario\Desktop\PracticasVSDiseño\Practica2Sol\Practica2Tests\obj\Debug\Practica2Tests.pdb

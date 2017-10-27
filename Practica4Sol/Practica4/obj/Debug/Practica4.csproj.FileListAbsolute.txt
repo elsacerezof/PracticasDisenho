@@ -1,0 +1,6 @@
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P4\Practica4Sol\Practica4\bin\Debug\Practica4.exe.config
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P4\Practica4Sol\Practica4\bin\Debug\Practica4.exe
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P4\Practica4Sol\Practica4\bin\Debug\Practica4.pdb
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P4\Practica4Sol\Practica4\obj\Debug\Practica4.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P4\Practica4Sol\Practica4\obj\Debug\Practica4.exe
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P4\Practica4Sol\Practica4\obj\Debug\Practica4.pdb
