@@ -1,0 +1,6 @@
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P7\Practica7Sol\Practica7\bin\Debug\Practica7.exe.config
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P7\Practica7Sol\Practica7\obj\Debug\Practica7.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P7\Practica7Sol\Practica7\bin\Debug\Practica7.exe
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P7\Practica7Sol\Practica7\bin\Debug\Practica7.pdb
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P7\Practica7Sol\Practica7\obj\Debug\Practica7.exe
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P7\Practica7Sol\Practica7\obj\Debug\Practica7.pdb

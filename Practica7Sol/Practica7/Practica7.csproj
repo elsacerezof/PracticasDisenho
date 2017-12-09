@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8B73D82E-1F7D-4B78-9BD2-7F8313235DE2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Practica7</RootNamespace>
+    <AssemblyName>Practica7</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Composite\Archivo.cs" />
+    <Compile Include="Composite\Comprimido.cs" />
+    <Compile Include="Composite\Directorio.cs" />
+    <Compile Include="Composite\Enlace.cs" />
+    <Compile Include="Composite\Enlazable.cs" />
+    <Compile Include="Composite\IElto_Sistema_Archivos.cs" />
+    <Compile Include="EstadosItArchivo\EstadoCreatedArchivo.cs" />
+    <Compile Include="EstadosItArchivo\EstadoDoneArchivo.cs" />
+    <Compile Include="EstadosItArchivo\EstadoItArchivo.cs" />
+    <Compile Include="EstadosItArchivo\EstadoRootArchivo.cs" />
+    <Compile Include="EstadosItComprimido\EstadoCreatedComprimido.cs" />
+    <Compile Include="EstadosItComprimido\EstadoDoneComprimido.cs" />
+    <Compile Include="EstadosItComprimido\EstadoInProgressComprimido.cs" />
+    <Compile Include="EstadosItComprimido\EstadoItComprimido.cs" />
+    <Compile Include="EstadosItComprimido\EstadoRootComprimido.cs" />
+    <Compile Include="EstadosItDirectorio\EstadoCreatedDirectorio.cs" />
+    <Compile Include="EstadosItDirectorio\EstadoDoneDirectorio.cs" />
+    <Compile Include="EstadosItDirectorio\EstadoInProgressDirectorio.cs" />
+    <Compile Include="EstadosItDirectorio\EstadoItDirectorio.cs" />
+    <Compile Include="EstadosItDirectorio\EstadoRootDirectorio.cs" />
+    <Compile Include="EstadosItEnlace\EstadoCreatedEnlace.cs" />
+    <Compile Include="EstadosItEnlace\EstadoDoneEnlace.cs" />
+    <Compile Include="EstadosItEnlace\EstadoItEnlace.cs" />
+    <Compile Include="EstadosItEnlace\EstadoRootEnlace.cs" />
+    <Compile Include="ItContenedorComprimido.cs" />
+    <Compile Include="ItContenedorDirectorio.cs" />
+    <Compile Include="ItHojaArchivo.cs" />
+    <Compile Include="ItHojaEnlace.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

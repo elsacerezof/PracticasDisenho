@@ -1,0 +1,13 @@
+C:\Workspaces\SwDesignLab\Pr-06-Observer\bin\Debug\Pr-06-Observer.exe.config
+C:\Workspaces\SwDesignLab\Pr-06-Observer\obj\Debug\Pr-06-Observer.csprojResolveAssemblyReference.cache
+C:\Workspaces\SwDesignLab\Pr-06-Observer\obj\Debug\Pr_06_Observer.FileExplorerView.resources
+C:\Workspaces\SwDesignLab\Pr-06-Observer\obj\Debug\Pr_06_Observer.Properties.Resources.resources
+C:\Workspaces\SwDesignLab\Pr-06-Observer\obj\Debug\Pr-06-Observer.csproj.GenerateResource.Cache
+C:\Workspaces\SwDesignLab\Pr-06-Observer\bin\Debug\Pr-06-Observer.exe
+C:\Workspaces\SwDesignLab\Pr-06-Observer\bin\Debug\Pr-06-Observer.pdb
+C:\Workspaces\SwDesignLab\Pr-06-Observer\bin\Debug\Pr04-Folders.exe
+C:\Workspaces\SwDesignLab\Pr-06-Observer\bin\Debug\Pr04-Folders.pdb
+C:\Workspaces\SwDesignLab\Pr-06-Observer\obj\Debug\Pr-06-Observer.exe
+C:\Workspaces\SwDesignLab\Pr-06-Observer\obj\Debug\Pr-06-Observer.pdb
+C:\Workspaces\SwDesignLab\Pr-06-Observer\obj\Debug\Pr_06_Observer.FileNameEditor.resources
+C:\Workspaces\SwDesignLab\Pr-06-Observer\obj\Debug\Pr_06_Observer.SparrowElementViewerCtrl.resources
