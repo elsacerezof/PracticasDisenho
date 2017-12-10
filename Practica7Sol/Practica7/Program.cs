@@ -37,6 +37,7 @@ namespace Practica7
             while (it.MoveNext()) {
 
                 Console.WriteLine(it.Current.Nombre);
+ 
                 
             }
             Console.ReadLine();
