@@ -131,7 +131,8 @@ namespace Pr_06_Observer
         }
 
         
-
+  
+  
         #endregion
     } // class
 }
