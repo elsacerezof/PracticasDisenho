@@ -12,6 +12,9 @@ namespace Practica5
     {
         private String nombre;
         private double tamanho;
+        // No es grave, pero salvo que el orden sea importante, procurad utilizar mejor
+        // conjuntos antes que listas.
+        // Por otro lado, estos observadores nunca se notifican
         private List<EltoSistObserver> observers;
         Enlazable destino;
 
