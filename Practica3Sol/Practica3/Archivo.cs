@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practica3
 {
-    public class Archivo : IElto_Sistema_Archivos
+    public class Archivo : Enlazable
     {
 
         #region Atributos

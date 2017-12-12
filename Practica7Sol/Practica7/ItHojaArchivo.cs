@@ -20,6 +20,7 @@ namespace Practica7
             raiz = d;
             current = null;
             estado = new EstadoCreatedArchivo(this);
+            isDone = false;
 
         }
 

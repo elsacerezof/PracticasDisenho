@@ -35,18 +35,7 @@ namespace Pr_06_Observer
             }
         }
 
-        public string Nombre
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
+        
 
         #endregion
 
@@ -63,14 +52,22 @@ namespace Pr_06_Observer
         {
             this.referencedElement = sa;
             this.Text = referencedElement.Nombre;
+            referencedElement.registerObserver(this);
         } // SparrowNode
 
-        public void updateEnlace(Enlazable e)
+        
+
+        public void update(IElto_Sistema_Archivos elto)
         {
-            referencedElement = e;
+            if (!this.Text.Equals(elto.Nombre))
+            {
+                this.Text = elto.Nombre;
+            }
+              
+            
         }
 
-        
+
 
         #endregion
 

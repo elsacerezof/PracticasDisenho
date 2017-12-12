@@ -9,18 +9,56 @@ namespace Practica5
 {
     public abstract class IElto_Sistema_Archivos
     {
-        public abstract String Nombre { get; set; }
+        protected String nombre;
+        protected double tamanho;
+        protected ISet<EltoSistObserver> observers;
+        protected IList<IElto_Sistema_Archivos> elementos;
+
+        public String Nombre
+        {
+            get { return nombre; }
+            set
+            {
+                this.nombre = value;
+                notify();
+            }
+        }
         public abstract double Tamanho { get; set; }
-        public abstract IList<IElto_Sistema_Archivos> Elementos { get; set;}
+        public ISet<EltoSistObserver> Observers { get { return observers; } set { observers = value; } }
+
+        public IList<IElto_Sistema_Archivos> Elementos
+        {
+            get { return elementos; }
+            set { this.elementos = value; }
+        }
 
         public abstract double calculaTamanhoTotal();
         public abstract int numArchivosCont();
         public abstract String acceptImpresora(Impresora a);
-        public abstract void registerObserver(EltoSistObserver obs);
-        public abstract void removeObserver(EltoSistObserver obs);
 
+        public void registerObserver(EltoSistObserver obs)
+        {
+            Observers.Add(obs);
+        }
 
+        public void removeObserver(EltoSistObserver obs)
+        {
+            Observers.Remove(obs);
+        }
 
+        protected void notify()
+        {
+
+            foreach (EltoSistObserver i in Observers)
+            {
+                
+                    i.update(this);
+                
+
+            }
+
+        }
+        
     }
 }
 

@@ -47,6 +47,7 @@
     <Compile Include="Comprimido.cs" />
     <Compile Include="Directorio.cs" />
     <Compile Include="Enlace.cs" />
+    <Compile Include="Enlazable.cs" />
     <Compile Include="IElto_Sistema_Archivos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

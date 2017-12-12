@@ -44,23 +44,16 @@ namespace Pr_06_Observer
             } // get
             set
             {
+                //borrar anterior registro del observer
+                //sparrowElement.removeObserver(this);
+                //añadir nuevo registro del observer
+                //sparrowElement.registerObserver(this);
                 this.sparrowElement = value;
                 displayElement();
             } // set
         } // SistemaArchivo
 
-        public string Nombre
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
+        
 
         #endregion
 
@@ -87,8 +80,12 @@ namespace Pr_06_Observer
         protected void displayElement()
         {
             if (this.sparrowElement != null) {
-               this.lb_NameText.Text = this.sparrowElement.Nombre;
-               this.lb_SizeText.Text = this.sparrowElement.calculaTamanhoTotal().ToString();
+                //solucion barrado registrar aqui y borrar antes
+                sparrowElement.registerObserver(this);
+
+                this.lb_NameText.Text = this.sparrowElement.Nombre;
+                this.lb_SizeText.Text = this.sparrowElement.calculaTamanhoTotal().ToString();
+
             } else
             {
                 this.lb_NameText.Text = "-";
@@ -125,14 +122,15 @@ namespace Pr_06_Observer
             this.tbl_Layout.Width = this.Width;
         } // SparrowElementViewer_Resize
 
-        public void updateEnlace(Enlazable e)
+        public void update(IElto_Sistema_Archivos elto)
         {
-            sparrowElement = e;
+            //this.sparrowElement.Nombre = elto.Nombre;
+            sparrowElement = elto;
         }
 
-        
-  
-  
+
+
+
         #endregion
     } // class
 }

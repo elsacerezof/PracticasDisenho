@@ -8,6 +8,7 @@ namespace Practica3
 {
     public interface Impresora
     {
+        //deberían llamarse todos print, solo se deben diferenciar en el parametro
         String printArchivo(Archivo a);
         String printComprimido(Comprimido c);
         String printDirectorio(Directorio d);

@@ -9,7 +9,7 @@ namespace Practica4
     public interface IElto_Sistema_Archivos
     {
         String Nombre { get; set; }
-        double Tamanho { get; set; }
+        double Tamanho { get; }
 
         double calculaTamanhoTotal();
         int numArchivosCont();

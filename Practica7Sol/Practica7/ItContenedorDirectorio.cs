@@ -21,6 +21,7 @@ namespace Practica7
             raiz = d;
             current = null;
             estado = new EstadoCreatedDirectorio(this);
+            isDone = false;
 
         }
 

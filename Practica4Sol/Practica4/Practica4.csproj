@@ -48,6 +48,7 @@
     <Compile Include="Comprimido.cs" />
     <Compile Include="Directorio.cs" />
     <Compile Include="Enlace.cs" />
+    <Compile Include="Enlazable.cs" />
     <Compile Include="GallegaStr.cs" />
     <Compile Include="IElto_Sistema_Archivos.cs" />
     <Compile Include="Impresora.cs" />

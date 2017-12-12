@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practica4
 {
-    public class Archivo : IElto_Sistema_Archivos
+    public class Archivo : Enlazable
     {
 
         #region Atributos
@@ -16,15 +16,17 @@ namespace Practica4
 
         #endregion
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="nom"></param>
+        /// <param name="tam"></param>
+        /// <pre>nom!=null</pre>
+        /// <pre>tam>=0</pre>
         public Archivo(String nom, double tam)
         {
-            if (nom == null || tam < 0)
-            {
-                throw new Exception();
-            }
-
             Nombre = nom;
-            Tamanho = tam;
+            tamanho = tam;
         }
 
         #region Propiedades
@@ -34,10 +36,6 @@ namespace Practica4
             get { return nombre; }
             set
             {
-                if (value == null)
-                {
-                    throw new Exception();
-                }
                 this.nombre = value;
             }
         }
@@ -45,14 +43,7 @@ namespace Practica4
         public double Tamanho
         {
             get { return tamanho; }
-            set
-            {
-                if (value < 0)
-                {
-                    throw new Exception();
-                }
-                this.tamanho = value;
-            }
+            
         }
 
         #endregion

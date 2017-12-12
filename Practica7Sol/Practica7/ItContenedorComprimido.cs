@@ -22,6 +22,7 @@ namespace Practica7
             raiz = c;
             Current = null;
             estado = new EstadoCreatedComprimido(this);
+            isDone = false;
 
 
         }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practica4
 {
-    public class Comprimido : IElto_Sistema_Archivos
+    public class Comprimido : Enlazable
     {
         #region Atributos
 
@@ -32,7 +32,7 @@ namespace Practica4
         public double Tamanho
         {
             get { return tamanho; }
-            set { this.tamanho = value; }
+            
         }
 
         public IList<IElto_Sistema_Archivos> EltosComp
@@ -57,7 +57,12 @@ namespace Practica4
 
         public int numArchivosCont()
         {
-            return eltosComp.Count;
+            int cuenta = 0;
+            foreach (IElto_Sistema_Archivos e in EltosComp)
+            {
+                cuenta =1+ e.numArchivosCont();
+            }
+            return cuenta;
         }
 
         public String acceptImpresora(Impresora a)

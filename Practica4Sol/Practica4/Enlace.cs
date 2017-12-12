@@ -11,9 +11,9 @@ namespace Practica4
         private String nombre;
         private double tamanho;
 
-        IElto_Sistema_Archivos destino;
+        Enlazable destino;
 
-        public Enlace(IElto_Sistema_Archivos e)
+        public Enlace(Enlazable e)
         {
 
             if (e.GetType() == typeof(Enlace))

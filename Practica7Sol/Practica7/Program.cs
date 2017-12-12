@@ -32,14 +32,26 @@ namespace Practica7
                 d1.Elementos.Add(e1);
 
 
-            IEnumerator<IElto_Sistema_Archivos> it = d1.GetEnumerator();
+            /*IEnumerator<IElto_Sistema_Archivos> it = d1.GetEnumerator();
 
             while (it.MoveNext()) {
 
                 Console.WriteLine(it.Current.Nombre);
- 
                 
+            }*/
+
+            Console.WriteLine("#################");
+
+            List<IElto_Sistema_Archivos> lista =SparrowHelper.BuscaElementos(d1, "A");
+            foreach(IElto_Sistema_Archivos e in lista){
+                Console.WriteLine(e.Nombre);
             }
+
+            Console.WriteLine("#################");
+            Console.WriteLine(SparrowHelper.BuscarPrimero(d1, "A").Nombre);
+
+
+
             Console.ReadLine();
 
         }
