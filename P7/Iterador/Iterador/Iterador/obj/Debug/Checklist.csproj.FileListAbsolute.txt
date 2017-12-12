@@ -1,0 +1,9 @@
+C:\Workspaces\SwDesign\Iterador\Iterador\Iterador\obj\Debug\Checklist.csprojResolveAssemblyReference.cache
+C:\Workspaces\SwDesign\Iterador\Iterador\Iterador\bin\Debug\Iterador.exe.config
+C:\Workspaces\SwDesign\Iterador\Iterador\Iterador\bin\Debug\Iterador.exe
+C:\Workspaces\SwDesign\Iterador\Iterador\Iterador\bin\Debug\Iterador.pdb
+C:\Workspaces\SwDesign\Iterador\Iterador\Iterador\obj\Debug\Iterador.exe
+C:\Workspaces\SwDesign\Iterador\Iterador\Iterador\obj\Debug\Iterador.pdb
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P7\Iterador\Iterador\Iterador\bin\Debug\Iterador.exe.config
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P7\Iterador\Iterador\Iterador\obj\Debug\Iterador.exe
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P7\Iterador\Iterador\Iterador\obj\Debug\Iterador.pdb

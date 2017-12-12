@@ -1,0 +1,11 @@
+C:\Workspaces\SwDesignLab\[demo] DependencyInjection\bin\Debug\Demo.DependencyInjection.exe.config
+C:\Workspaces\SwDesignLab\[demo] DependencyInjection\obj\Debug\[demo] DependencyInjection.csprojResolveAssemblyReference.cache
+C:\Workspaces\SwDesignLab\[demo] DependencyInjection\bin\Debug\Demo.DependencyInjection.exe
+C:\Workspaces\SwDesignLab\[demo] DependencyInjection\bin\Debug\Demo.DependencyInjection.pdb
+C:\Workspaces\SwDesignLab\[demo] DependencyInjection\bin\Debug\Ninject.dll
+C:\Workspaces\SwDesignLab\[demo] DependencyInjection\bin\Debug\Ninject.xml
+C:\Workspaces\SwDesignLab\[demo] DependencyInjection\obj\Debug\Demo.DependencyInjection.exe
+C:\Workspaces\SwDesignLab\[demo] DependencyInjection\obj\Debug\Demo.DependencyInjection.pdb
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P5\Demo_DependencyInjection\[demo] DependencyInjection\bin\Debug\Demo.DependencyInjection.exe.config
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P5\Demo_DependencyInjection\[demo] DependencyInjection\obj\Debug\Demo.DependencyInjection.exe
+C:\Users\Usuario\Documents\Mis Documentos\Trabajos\UNICAN\4o Curso\1erCuatrimestre\Diseño\Practicas\P5\Demo_DependencyInjection\[demo] DependencyInjection\obj\Debug\Demo.DependencyInjection.pdb
